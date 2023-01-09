@@ -1,0 +1,122 @@
+main {
+    width: 60%;
+    margin:  5vh auto;
+    background: lightgray;
+    height: 100%;
+    border-radius: 1vh 1vh 0 0;
+}
+
+section {
+    position: relative;
+}
+
+.overlay {
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 1vh 1vh 0 0;
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+
+}
+
+.ticketheadersection {
+    color: white;
+    height: 40%;
+}
+
+.ticketheadersection img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 1vh 1vh 0 0;
+    z-index: 1;
+
+}
+
+.backarrow, .movietitle, .movielocation {
+    position: absolute;
+    z-index: 11;
+    margin-left: 5%;
+}
+
+.backarrow {
+    top: 0;
+    margin: 5% 0 0 5%;
+    font-size: 3vmax;
+}
+
+.backarrow a, .backarrow a:hover {
+    color: white;
+}
+
+.movietitle {
+    bottom: 0;
+    margin-bottom: 3vh;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.movielocation {
+    bottom: 0;
+    margin-bottom: 1vh;
+    font-size: .8em;
+}
+
+.seatsheader {
+    text-align: center;
+    font-size: .9em;
+    margin: 2vh 0;
+}
+
+.seatsheader p span {
+    margin: 0 5%;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    width: 15%;
+}
+
+
+td {
+    width: 10%;
+    padding: .5vmax 0;
+}
+
+
+
+.rowletter {
+    text-align: center;
+    font-size: .9em;
+}
+
+.screensection {
+    text-align: center;
+    height: 10vh;
+    margin: 0 0 -5vh 0 ;
+}
+
+.screensection h4 {
+    margin: 5% 0 -5% 0;
+
+}
+
+.moviescreen {
+    height: 4vh;
+    width: 80%;
+    margin: auto;
+    border-bottom: .3em solid black;
+    border-radius: 0 0 100% 100%;
+    
+}
+
+.ticketdetailssection {
+    background-color: red;
+}
